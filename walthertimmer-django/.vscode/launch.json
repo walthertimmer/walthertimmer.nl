@@ -41,7 +41,7 @@
                 "runserver",
                 "--noreload",
                 "--nothreading",
-                "5000"
+                "8000"
             ],
             "django": true
         },
