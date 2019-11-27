@@ -40,7 +40,8 @@
             "args": [
                 "runserver",
                 "--noreload",
-                "--nothreading"
+                "--nothreading",
+                "5000"
             ],
             "django": true
         },
