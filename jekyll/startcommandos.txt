@@ -1,0 +1,10 @@
+cd /Users/walthertimmer/Documents/GitHub/walthertimmer.nl/jekyll
+
+# start nieuwe website
+jekyll new jekyll --force
+
+# start test website
+bundle exec jekyll serve
+
+# bekijk website
+http://localhost:4000
