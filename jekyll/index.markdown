@@ -4,9 +4,13 @@
 
 layout: home
 ---
+  <b/>  
+  <b/>  
+  <b/>  
+  <b/>  
+  <b/>  
+ 
+# Hey there! I'm [Walther](about).  
+## I'm a data engineer working on various projects in the field of business intelligence. Currently I'm employed at [Hot ITem](http://www.hotitem.nl) in Amsterdam.
 
-
-Welcome to my webpage. On this website you can find more information about me and how you can contact me. 
-Moreover I will occassionaly post blog content on this site. 
-
-<img align="center" alt="datacenter" src="/assets/interior-of-office-building.jpg">
+<!---<img align="center" alt="datacenter" src="/assets/interior-of-office-building.jpg">--->
