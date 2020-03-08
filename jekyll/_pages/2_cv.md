@@ -4,9 +4,11 @@ title: CV
 permalink: /curriculum-vitae-walther-timmer/
 ---
 
-In the work field of data engineering there are a lot of developments. I therefore like to follow online training or MOOCs in subjects that I currently work with at my daily job. Below you can find a link to my CV and links to the certificates of a couple of MOOCs that I took. 
+In the work field of data engineering there are a lot of developments. I therefore like to follow online training or MOOCs in subjects that I currently work with at my daily job.
 
-[Click here for my CV]({{ site.baseurl }}{% link /assets/CV_Walther_Timmer.pdf %}) (The CV is rather old.. see [Linkedin](https://linkedin.com/in/walthertimmer) for recent experience.)  
+<!---[Click here for my CV]({{ site.baseurl }}{% link /assets/CV_Walther_Timmer.pdf %}) (The CV is rather old.. --->
+
+See my [Linkedin](https://linkedin.com/in/walthertimmer) for recent experience. 
 
 #### Certificates
 [AWS Certified Cloud Practitioner certificate]({{ site.baseurl }}{% link /assets/certificates/AWS Certified Cloud Practitioner certificate.pdf %})  

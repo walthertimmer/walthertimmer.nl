@@ -19,10 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Walther Timmer
-email: timmer@hotitem.nl
+email: walthertimmer@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Walther Timmer is a Data Engineer that loves working with new technologies and solving the challenges associated with them. 
+  Walther Timmer is a Data Engineer that loves working with the latest technologies to solve business challanges. 
   His main strengths are being a fast learner and being able to work and deliver value on both the business- and technical-side of projects. 
+  He thrives in fast-paced work environments where he can make the difference by filling a technical gap or setting goals for the team and achieving business value.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://walthertimmer.nl" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: walthertimmer
