@@ -38,3 +38,14 @@ themes:
 https://pages.github.com/themes/
 
 https://chibicode.github.io/duo/
+
+
+
+
+
+## 2024
+cd /mnt/c/GIT/walthertimmer.nl/
+
+bundle install
+
+bundle exec jekyll serve 
