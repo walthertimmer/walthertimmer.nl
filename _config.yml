@@ -2,7 +2,7 @@
 # Customize Options: Must Change
 #
 # Title:
-title: Walther D. Timmer
+title: WDT
 
 # Where the page will be deployed.
 # If it's https://foo.com/bar, just write "https://foo.com"
@@ -25,7 +25,7 @@ defaults:
     scope:
       path: ""
     values:
-      image: "static/images/profile.jpg"
+      image: "static/images/og.jpg"
 
 # ----------------------------------------------------------------------------
 # Customize Options: Optional
@@ -61,6 +61,14 @@ exclude:
   - package.json
   - hot
   - LICENSE.txt
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+
+
 
 plugins:
   - jekyll-feed
