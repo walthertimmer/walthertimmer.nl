@@ -18,6 +18,8 @@ twitter:
 #author:
 #  twitter: "chibicode"
 
+environment: "dev"
+
 # Set default og:image
 # From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
 defaults:
