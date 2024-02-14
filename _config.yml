@@ -19,6 +19,7 @@ twitter:
 #  twitter: "chibicode"
 
 environment: "dev"
+repository: "walthertimmer/walthertimmer.nl"
 
 # Set default og:image
 # From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
