@@ -1,8 +1,0 @@
-_site
-node_modules
-hot
-.jekyll-metadata
-yarn-error.log
-.sass-cache
-Gemfile.lock
-vendor/bundle/**

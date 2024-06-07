@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home | WaltherTimmer.nl</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 0px; /* Space for the navbar */
+        }
+        .navbar {
+            background-color:  #007bff;  /* Bootstrap primary color */
+            border-radius: 10px; /* Rounded corners */
+            position: fixed; /* Make it stick/fixed */
+            top: 10px; /* Add space at the top */
+            width: calc(100% - 20px); /*  Adjust width to account for left and right space */
+            z-index: 1000; /* Ensure it stays on top */
+            max-width: 960px; /* Limit the width of the content */
+            
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .container {
+            max-width: 960px; /* Limit the width of the content */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="/">WaltherTimmer.nl</a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <!--<a class="nav-link" href="#">Home</a> -->
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Wie ben ik?</h2>
+                <p>Door mijn studie economie kwam ik in aanraking met data en wat je er allemaal mee kan doen en afleiden. Door deze interesse ben ik na mijn studie in de data wereld aan de slag gegaan bij een consultancy club; Hot ITem in Amsterdam.</p>
+                <p>Met mijn werk hou ik mij bezig met het realiseren van data platformen voor de grotere bedrijven in Nederland. Dit omvat zowel het bedenken van de juiste opzet en tooling als ook het realiseren van deze platformen als ook de data producten.</p>
+                <p>Op deze website hoop ik gedachtes over bepaalde ontwikkelingen in het data vlak te delen. Dit kan gaan over nieuwe technieken, nieuwe tools of nieuwe inzichten.</p>
+
+                <h2>Contact?</h2>
+                <p>Email: <a href="mailto:walthertimmer@pm.com">walthertimmer@pm.com</a></p>
+                <p>Twitter / X: <a href="https://x.com/waltherdt">waltherdt</a></p>
+                <p>GitHub: <a href="https://github.com/walthertimmer">walthertimmer</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/walthertimmer/">walthertimmer</a></p>
+            </div>
+            <div class="col-md-8">
+                <h1>Blog</h1>
+                <ul class="list-group mt-4">
+                    {% for post in posts %}
+                    <li class="list-group-item">
+                        <a href="/post/{{ post.file }}">
+                            {{ post.date }} - {{ post.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }} | WaltherTimmer.nl </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 0px; /* Space for the navbar */
+        }
+        .navbar {
+            background-color:  #007bff;  /* Bootstrap primary color */
+            border-radius: 10px; /* Rounded corners */
+            position: fixed; /* Make it stick/fixed */
+            top: 10px; /* Add space at the top */
+            width: calc(100% - 20px); /*  Adjust width to account for left and right space */
+            z-index: 1000; /* Ensure it stays on top */
+            max-width: 960px; /* Limit the width of the content */
+            
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .container {
+            max-width: 960px; /* Limit the width of the content */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="/">WaltherTimmer.nl</a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <!--<a class="nav-link" href="#">Home</a> -->
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Metadata</h2>
+                <p>Datum: {{ date }}</p>
+                <p>Tags: {{ tags }}</p>
+            </div>
+            <div class="col-md-8">
+                <h1>{{ title }}</h1>
+                <div>{{ content | safe }}</div>
+            </div>
+        </div>
+    </div>
+</body>
