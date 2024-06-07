@@ -1,9 +1,7 @@
 ## About
-This repo will contain my personal basic website. 
+This repo will contain my personal basic website.   
 
-
-
-## Setup
-.\.venv\Scripts\activate
-pip install fastapi
-pip freeze > requirements.txt
+## Setup  
+.\.venv\Scripts\activate  
+pip install fastapi  
+pip freeze > requirements.txt  
