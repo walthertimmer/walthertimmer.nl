@@ -16,6 +16,11 @@ async def favicon():
 
 templates = Jinja2Templates(directory="templates")
 
+# Turn off API docs
+app.redoc_url = None
+app.openapi_url = None
+app.docs_url = None
+
 def read_md_file(file_path):
     with open(file_path, 'r') as f:
         post = frontmatter.load(f)
