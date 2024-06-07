@@ -5,9 +5,8 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 import markdown
 import os
-# import jinja2
 import frontmatter
-# import datetime
+
 
 app = FastAPI()
 
@@ -17,8 +16,6 @@ templates = Jinja2Templates(directory="templates")
 
 def read_md_file(file_path):
     with open(file_path, 'r') as f:
-    #     content = f.read()
-    # return content
         post = frontmatter.load(f)
     return post
 
@@ -26,8 +23,7 @@ def read_md_file(file_path):
 
 @app.get("/", response_class=HTMLResponse)
 def read_root(request: Request):
-    files = os.listdir('posts')  # Assuming your posts are in a directory named 'posts'
-    # links = [f'<a href="/post/{f}">{f}</a><br/>' for f in files]
+    files = os.listdir('posts')  
     posts = []
     for f in files:
         post = read_md_file(f'posts/{f}')
