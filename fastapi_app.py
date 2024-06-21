@@ -22,7 +22,7 @@ app.openapi_url = None
 app.docs_url = None
 
 def read_md_file(file_path):
-    with open(file_path, 'r') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         post = frontmatter.load(f)
     return post
 

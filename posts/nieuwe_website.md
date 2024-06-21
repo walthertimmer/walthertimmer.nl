@@ -14,4 +14,7 @@ Mijn eigen website heeft al vele iteraties qua tech setup meegemaakt:
 
 Tot nu een variatie waarbij een simpele blog setup is gebouwd met Python FastAPI en markdown files. Het idee is hierachter dat het altijd leuk is met nieuwe Python frameworks aan de gang te gaan. 
 
-Verder wordt de website nu in een Docker image gezet die in een eigen private image repository wordt gezet waarna het gehost wordt op een Kubernetes cluster met een loadbalancer ervoor. Deze setup heb ik voornamelijk gekozen omdat ik toch al een cluster heb draaien bij een cloud provider voor wat andere projecten en ik zo zaken kan samenvoegen. Zo lift ik bovendien ook mee op de allernieuwste IT-hype om alles in Kubernetes te plaatsen. 
+Verder wordt de website nu in een Docker image gezet die in een eigen private image repository wordt gezet waarna het gehost wordt op een Kubernetes cluster met een loadbalancer ervoor. Deze setup heb ik voornamelijk gekozen omdat ik toch al een cluster heb draaien bij een cloud provider voor wat andere projecten en ik zo zaken kan samenvoegen. Zo lift ik bovendien ook mee op de IT-hype om alles in Kubernetes te plaatsen.  
+
+### Solution design   
+<img src="/static/walthertimmernl.drawio.png" alt="solution design website" style="max-width: 100%;">
